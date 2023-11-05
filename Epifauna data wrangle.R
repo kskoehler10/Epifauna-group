@@ -172,7 +172,8 @@ env<-env[ (row.names(env) %in% rmlist3),]
 dim(env)
 
 ## Make a data frame containing env data and some univariate metrics we might want to model
-uni1<-cbind(env,taxa.transect1[c(1:3,308:339)])
+transect.uni1<-cbind(env[-c(78:82,84)],taxa.transect1[c(1:3,308:339)])
+write.csv(transect.uni1,"C:/Users/kskoe/OneDrive/Desktop/wasting disease 10-23/transect.uni1.csv")
 
 
 
