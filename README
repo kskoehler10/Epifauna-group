@@ -1,0 +1,11 @@
+### Epifauna data wrangle is the R code I used to make sensible data sets for univariate and multivariate analyses
+
+### I used the most recent datasets available from drive.
+    ### 20230824_allepifauna_wide_macrophyte.csv = dataset including all taxa abundances per sample
+    ### EGWD_transect_metrics_20230925.csv = the updated data of all environmental metrics
+
+## The resulting datasets are:
+    ### taxa.only.transect = a dataframe with only the raw abundance of each taxa per transect
+    ### transect.uni1 = A dataframe with all environmental metrics one might want plus a few univariate responses like abundance and diversity
+    ### taxa.multi = data appropriate for multivariate community composition statistics
+
